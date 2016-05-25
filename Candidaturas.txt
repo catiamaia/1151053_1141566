@@ -1,0 +1,4 @@
+nomeEmpresa1;morada1;telemovel1;areaExposicao1;produtos1;convites1
+nomeEmpresa2;morada2;telemovel2;areaExposicao2;produtos2;convites2
+nomeEmpresa3;morada3;telemovel3;areaExposicao3;produtos3;convites3
+nomeEmpresa4;morada4;telemovel4;areaExposicao14;produtos4;convites4
