@@ -19,7 +19,7 @@ public class Consola {
         
     public void menuPrinicpal(){
         System.out.print("\n*** MENU PRINCIPAL ***\n");
-         System.out.print("Selecione uma opção? "+"\n"+"Atribuir Candidatura (1) "+"\n"+"Decidir Candidatura (2) "+
+         System.out.print("Selecione uma opção? "+"\n"+"Atribuir Candidatura (1) "+"\n"+"Avaliar Candidatura (2) "+
             "\n"+"Registar candidatura (3)"+"\n"+"->");
     }
     
@@ -32,9 +32,9 @@ public class Consola {
         System.out.print("\n**** MENU LOGIN ****");
         System.out.print("\nUSER: ");
         user=entrada.nextLine();
-        System.out.print("\nEMAIL: ");
+        System.out.print("EMAIL: ");
         email=entrada.nextLine();
-        System.out.print("\nPASSWORD: ");
+        System.out.print("PASSWORD: ");
         pass=entrada.nextLine();
        
        
@@ -42,7 +42,7 @@ public class Consola {
         return valores;  
     }
     
-    public void menuExposicoesDoOrgnizador(ArrayList al){
+    public String menuExposicoesDoOrgnizador(ArrayList al){
         Scanner entrada2=new Scanner(System.in);
     
             for(int i=0;i<al.size();i++){
@@ -55,12 +55,13 @@ public class Consola {
             }
            
         }
-        System.out.print("\n->");
+        System.out.print("->");
         String leituraDeDados=entrada2.nextLine();
         boolean check= verificaDadosMenuExposicoesDoOrganizador(al,leituraDeDados);
         if(check==false){
             menuExposicoesDoOrgnizador(al);
         }
+        return leituraDeDados;
     }
 
     
@@ -72,4 +73,14 @@ public class Consola {
          }  
         return false;
     }
+    
+    public int menuMecanismos(){
+        System.out.print("\n***MENU MECANISMOS***\n1-Mecanismo[Número de participacoes como FAE]\n"
+                + "2-Mecanismo[Desempenho por FAE] \n3-Mecanismo[Areas de Experiência]\nSelecione o número do mecanismo: ");
+        Scanner entrada=new Scanner(System.in);
+        int leituraEcolhaMecanismo=entrada.nextInt();
+        return leituraEcolhaMecanismo;
+    }
+    
+    
 }

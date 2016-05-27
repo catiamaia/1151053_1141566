@@ -1,4 +1,12 @@
-nomeEmpresa1;morada1;telemovel1;areaExposicao1;produtos1;convites1
-nomeEmpresa2;morada2;telemovel2;areaExposicao2;produtos2;convites2
-nomeEmpresa3;morada3;telemovel3;areaExposicao3;produtos3;convites3
-nomeEmpresa4;morada4;telemovel4;areaExposicao14;produtos4;convites4
+1-Surf
+SurfLocal;Rua das Amelias;913254766;21,2;Pranchas de Surf;125
+Waimea;Rua de Matosihos;93212132433; Pranchas de Body Board;300
+2-Sapataria
+AllStar;Rua da Boavista;912343123;sapatilhas;35
+Ecco;Rua Nossa Senhora de Fatima;919191912912;botas;56
+3-Yoga
+Pure;Rua da Liberdade;96983245; bolos vegui;51
+Peace;Rua dos bem guiados;92111888234;incenso;80
+4*Futebol
+Foot;Rua dos golos;913254766;bolas de futebol;1561
+RonaldoStore;Rua dos Milhoes;913254766;chuteiras;2222

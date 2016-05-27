@@ -1,4 +1,4 @@
 Surf;descritivoSurf;22-2-2016;24-2-2016;Porto;mauro-Rita
 Sapataria;descritivoSapataria;24-3-2016;Braga;26-3-2016;Rita-Joana
 Yoga;descritivoYoga;26-2-2016;28-2-2016;Maia;Raquel-Rodrigo
-Futebol;decritivoFutebol;27-3-2016;29-3-2016;Ribeira;mauro-Patricia
+Futebol;descritivoFutebol;27-3-2016;29-3-2016;Ribeira;mauro-Patricia

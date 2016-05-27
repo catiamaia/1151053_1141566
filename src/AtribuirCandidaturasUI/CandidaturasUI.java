@@ -47,8 +47,10 @@ public class CandidaturasUI {
                
                 if(Utilizadores.get(i).getNome().equals(valores[0])){
                 ArrayList al= CandidaturasController1.AssociacaoOrganizadoresExposicao(valores[0],ce1);
-                c1.menuExposicoesDoOrgnizador(al);
-                CandidaturasController1.getMecanismos();
+                String ExpoSelecionada=c1.menuExposicoesDoOrgnizador(al);             
+                int opcaoMecanismo=c1.menuMecanismos();
+               CandidaturasController1.gestorMecanismos(opcaoMecanismo,ExpoSelecionada,ce1);
+            
                 
                  break;
                  }else{

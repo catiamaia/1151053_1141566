@@ -1,4 +1,6 @@
 mauro;email1;pass1;s
-user2;email2;pass3;s
-user3;email3;pass4;s
-user4;email4;pass5;s
+Rita;email2;pass2;s
+Joana;email3;pass3;s
+Raquel;email4;pass4;s
+Rodrigo;email5;pass5;s
+Patricia;email6;pass6;s

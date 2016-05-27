@@ -1,0 +1,6 @@
+mauro;15;78;Surf-Skate-Cafe-Futebol
+Rita;4;34;Roupa-Sapatos-Surf
+Joana;3;21;Flores-Sapatos
+Raquel;5;43;Viagens-Yoga
+Rodrigo;7;60;Legos-Livros-Jogos-Yoga
+Patricia;2;3;cosmetica-Futebol

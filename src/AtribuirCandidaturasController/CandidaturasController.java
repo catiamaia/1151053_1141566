@@ -5,9 +5,11 @@
  */
 package AtribuirCandidaturasController;
 
+import Interfaces.Consola;
 import Model.CentroExposicoes;
 import static Model.CentroExposicoes.FILE_UTILIZADORES;
 import Model.Exposicao;
+import Model.Mecanismos;
 import Model.Utilizador;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -42,13 +44,10 @@ public class CandidaturasController {
         return al;
     }
     
-    public void getRegistoCandidaturas(){
-        
+
+
+    public void gestorMecanismos(int opcaoMecanismo, String ExpoSelecionada, CentroExposicoes ce1) throws FileNotFoundException {
+         Mecanismos m1=new Mecanismos();
+        m1.gestorDeMecanismos(opcaoMecanismo, ExpoSelecionada,  ce1);
     }
-    
-    public void getRegistoFAES(){
-        
-    }
-    
-    
 }

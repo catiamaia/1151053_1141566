@@ -37,9 +37,7 @@ public class CentroExposicoes {
     public List<Utilizador> getListaUtilizadores() throws FileNotFoundException{
       
         Scanner ler=new Scanner(new File(FILE_UTILIZADORES));
-        
-        
-        
+
         while(ler.hasNext()){
             String linha=ler.nextLine();
              if (!linha.isEmpty()) {
